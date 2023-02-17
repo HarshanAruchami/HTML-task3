@@ -13,17 +13,15 @@
             background: #bdc3c7;
             background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
             background: linear-gradient(to right, #2c3e50, #bdc3c7);
-            /* position: fixed; */
             border: 100px;
             font-size: 30px;
             padding-bottom: 30px;
             padding-top: 30px;
-            /* padding-right: 159px; */
-
+            position: sticky;
+            padding-right: 159px;
         }
 
         #atag {
-
             margin-left: 1250px;
             margin-top: -70px;
         }
@@ -42,66 +40,147 @@
             padding-right: 10px;
             padding-bottom: 5px;
             margin-left: 10px;
+
         }
 
         .logo {
             padding-bottom: 10px;
+
         }
 
         #mainmarigin {
             margin-left: 120px;
-
+            margin-right: 120px;
         }
 
         #banner {
-            margin-top: 100px;
+            margin-top: 200px;
             display: flex;
-            float: left;
             display: inline-block;
         }
 
-        #mail{
-            color: rgb(240, 245, 250);
-            position: relative;
-            margin-right: 0px;
-            margin-top: 100px;
-            display: inline-block;
-            background-color: #2c3e50;
-            padding-right: 500px;
-            padding-bottom: 583px;
-            margin-left: ;
-        }
-        #lmail{
+
+        #lmail {
             padding-left: 10px;
+        }
+
+        .about {
+            background-color: #a8afb4;
+            color: black;
+            font-size: 30px;
+            text-align: center;
+            width: 1600px;
+            padding-bottom: 20px;
+            padding-right: 5%;
+            padding-left: 5%;
+            margin-top: 10px;
+        }
+
+        .users {
+            background-color: #a8afb4;
+            color: black;
+            margin-top: 80px;
+            font-size: 30px;
+            text-align: center;
+            width: 40%;
+            padding-bottom: 20px;
+            float: right;
+
+
+        }
+
+        .Meetings {
+            background-color: #a8afb4;
+            color: black;
+            margin-top: 80px;
+            font-size: 30px;
+            text-align: center;
+            width: 40%;
+            padding-bottom: 20px;
+            float: right;
+            margin-bottom: 300px;
+            float: left;
+
+
+
+
+        }
+
+
+
+        #fix {
+            position: fixed;
+        }
+
+        .Agenda {
+            background-color: #a8afb4;
+            color: black;
+            margin-top: 80px;
+            font-size: 30px;
+            text-align: center;
+            width: 40%;
+            padding-bottom: 20px;
+            margin-bottom: 300px;
+            padding-top: 10px;
+
+
+
         }
     </style>
 </head>
 
 <body style="background-color:rgba(255, 255, 255, 0.808);">
     <!-- NAVBAR -->
-    <nav id="nav">
-        <img id="logo" src="/assets/logo.png" width="100px" class="logo">
-        <!-- NAVBAR BUTTONS -->
-        <div id="atag">
-            <a href="" id="a">Contact</a>
-            <a href="" id="a">Sign up</a>
-            <a href="" id="a">Profile</a>
-            <a href="" id="a">Login</a>
-            <a href="" id="a">Logout</a>
-        </div>
-    </nav>
-    <!-- HERO PART -->
-    <div id="mainmarigin">
-        <img src="/assets/edu1.jpg" id="banner" alt="schoolpic" width="1200px" height="600">
-        <div id="mail">
-            <label id="lmail">MAIL</label><br>
-            <!-- <input  id="mail" type="email" placeholder="eg.harshan@gmail.com"> -->
-        </div>
-
-
+    <div id="fix">
+        <nav id="nav">
+            <img id="logo" src="/assets/logo.png" width="100px" class="logo">
+            <!-- NAVBAR BUTTONS -->
+            <div id="atag">
+                <a href="" id="a">Contact</a>
+                <a href="" id="a">Sign up</a>
+                <a href="" id="a">Profile</a>
+                <a href="" id="a">Login</a>
+                <a href="" id="a">Logout</a>
+            </div>
+        </nav>
     </div>
 
-
+    <!-- HERO PART -->
+    <div id="mainmarigin">
+        <img src="/assets/edu1.jpg" id="banner" alt="schoolpic" width="1800px" height="600">
+    </div>
+    <div class="about" id="mainmarigin">
+        <h3>About the app</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo vitae ducimus sint deserunt. Assumenda cum
+            distinctio quae obcaecati soluta velit aperiam laboriosam veniam rem labore totam, eaque pariatur voluptatem
+            vitae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis velit id maiores tenetur molestiae
+            ex repudiandae dolores ratione blanditiis quidem? Iusto officia eius esse voluptate harum, quos non amet
+            beatae.</p>
+    </div>
+    <div class="users" id="mainmarigin">
+        <h3>Users</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo vitae ducimus sint deserunt. Assumenda cum
+            distinctio quae obcaecati soluta velit aperiam laboriosam veniam rem labore totam, eaque pariatur voluptatem
+            vitae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis velit id maiores tenetur molestiae
+            ex repudiandae dolores ratione blanditiis quidem? Iusto officia eius esse voluptate harum, quos non amet
+            beatae.</p>
+    </div>
+    <div class="Meetings" id="mainmarigin">
+        <h3>Meetings</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo vitae ducimus sint deserunt. Assumenda cum
+            distinctio quae obcaecati soluta velit aperiam laboriosam veniam rem labore totam, eaque pariatur voluptatem
+            vitae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis velit id maiores tenetur molestiae
+            ex repudiandae dolores ratione blanditiis quidem? Iusto officia eius esse voluptate harum, quos non amet
+            beatae.</p>
+    </div>
+    <div class="Agenda" id="mainmarigin">
+        <h3>Agenda</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo vitae ducimus sint deserunt. Assumenda cum
+            distinctio quae obcaecati soluta velit aperiam laboriosam veniam rem labore totam, eaque pariatur voluptatem
+            vitae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis velit id maiores tenetur molestiae
+            ex repudiandae dolores ratione blanditiis quidem? Iusto officia eius esse voluptate harum, quos non amet
+            beatae.</p>
+    </div>
 </body>
 
 </html>
