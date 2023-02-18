@@ -73,7 +73,19 @@
             padding-bottom: 20px;
             padding-right: 5%;
             padding-left: 5%;
-            margin-top: 10px;
+        }
+
+        .agenda {
+            background-color: #a8afb4;
+            color: black;
+            margin-top: 80px;
+            font-size: 30px;
+            text-align: center;
+            width: 50%;
+            margin-left: 120px;
+            margin-right: 40px;
+
+
         }
 
         .users {
@@ -82,49 +94,79 @@
             margin-top: 80px;
             font-size: 30px;
             text-align: center;
-            width: 40%;
-            padding-bottom: 20px;
-            float: right;
-
-
+            width: 50%;
+            margin-right: 90px;
+            margin-left: 40px;
         }
-
-        .Meetings {
-            background-color: #a8afb4;
-            color: black;
-            margin-top: 80px;
-            font-size: 30px;
-            text-align: center;
-            width: 40%;
-            padding-bottom: 20px;
-            float: right;
-            margin-bottom: 300px;
-            float: left;
-
-
-
-
-        }
-
-
 
         #fix {
             position: fixed;
         }
 
-        .Agenda {
+        .meetings {
             background-color: #a8afb4;
             color: black;
             margin-top: 80px;
             font-size: 30px;
             text-align: center;
-            width: 40%;
-            padding-bottom: 20px;
-            margin-bottom: 300px;
-            padding-top: 10px;
+            width: 50%;
+            margin-left: 120px;
+            margin-right: 40px;
 
 
 
+        }
+
+        .actionitems {
+            background-color: #a8afb4;
+            color: black;
+            margin-top: 80px;
+            font-size: 30px;
+            text-align: center;
+            width: 50%;
+            margin-right: 90px;
+            margin-left: 40px;
+
+        }
+
+        .fb {
+            background-color: #a8afb4;
+            color: black;
+            margin-top: 80px;
+            font-size: 30px;
+            text-align: center;
+            width: 50%;
+            margin-left: 120px;
+            margin-right: 40px;
+        }
+
+        .tweet {
+            background-color: #a8afb4;
+            color: black;
+            margin-top: 80px;
+            font-size: 30px;
+            text-align: center;
+            width: 50%;
+            margin-right: 90px;
+            margin-left: 40px;
+        }
+
+        footer {
+            display: block;
+            background: #bdc3c7;
+            background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+            background: linear-gradient(to right, #2c3e50, #bdc3c7);
+            border: 100px;
+            font-size: 30px;
+            padding-bottom: 200px;
+            padding-top: 30px;
+            position: sticky;
+            padding-right: 159px;
+            margin-top: 100px;
+
+        }
+        .up{
+            align-items: center;
         }
     </style>
 </head>
@@ -132,17 +174,17 @@
 <body style="background-color:rgba(255, 255, 255, 0.808);">
     <!-- NAVBAR -->
     <div id="fix">
-        <nav id="nav">
-            <img id="logo" src="/assets/logo.png" width="100px" class="logo">
-            <!-- NAVBAR BUTTONS -->
-            <div id="atag">
-                <a href="" id="a">Contact</a>
-                <a href="" id="a">Sign up</a>
-                <a href="" id="a">Profile</a>
-                <a href="" id="a">Login</a>
-                <a href="" id="a">Logout</a>
-            </div>
-        </nav>
+            <nav id="nav">
+                <img id="logo" src="/assets/logo.png" width="100px" class="logo">
+                <!-- NAVBAR BUTTONS -->
+                <div id="atag">
+                    <a href="" id="a">Contact</a>
+                    <a href="" id="a">Sign up</a>
+                    <a href="" id="a">Profile</a>
+                    <a href="" id="a">Login</a>
+                    <a href="" id="a">Logout</a>
+                </div>
+            </nav>
     </div>
 
     <!-- HERO PART -->
@@ -157,30 +199,80 @@
             ex repudiandae dolores ratione blanditiis quidem? Iusto officia eius esse voluptate harum, quos non amet
             beatae.</p>
     </div>
-    <div class="users" id="mainmarigin">
-        <h3>Users</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo vitae ducimus sint deserunt. Assumenda cum
-            distinctio quae obcaecati soluta velit aperiam laboriosam veniam rem labore totam, eaque pariatur voluptatem
-            vitae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis velit id maiores tenetur molestiae
-            ex repudiandae dolores ratione blanditiis quidem? Iusto officia eius esse voluptate harum, quos non amet
-            beatae.</p>
+    <div style="display: flex;">
+        <div class="agenda">
+            <h3>Agenda</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo vitae ducimus sint deserunt. Assumenda cum
+                distinctio quae obcaecati soluta velit aperiam laboriosam veniam rem labore totam, eaque pariatur
+                voluptatem
+                vitae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis velit id maiores tenetur
+                molestiae
+                ex repudiandae dolores ratione blanditiis quidem? Iusto officia eius esse voluptate harum, quos non amet
+                beatae.</p>
+        </div>
+        <div class="users">
+            <h3>Users</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo vitae ducimus sint deserunt. Assumenda cum
+                distinctio quae obcaecati soluta velit aperiam laboriosam veniam rem labore totam, eaque pariatur
+                voluptatem
+                vitae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis velit id maiores tenetur
+                molestiae
+                ex repudiandae dolores ratione blanditiis quidem? Iusto officia eius esse voluptate harum, quos non amet
+                beatae.</p>
+        </div>
     </div>
-    <div class="Meetings" id="mainmarigin">
-        <h3>Meetings</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo vitae ducimus sint deserunt. Assumenda cum
-            distinctio quae obcaecati soluta velit aperiam laboriosam veniam rem labore totam, eaque pariatur voluptatem
-            vitae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis velit id maiores tenetur molestiae
-            ex repudiandae dolores ratione blanditiis quidem? Iusto officia eius esse voluptate harum, quos non amet
-            beatae.</p>
+    <div style="display: flex;">
+        <div class="meetings">
+            <h3>meetings</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo vitae ducimus sint deserunt. Assumenda cum
+                distinctio quae obcaecati soluta velit aperiam laboriosam veniam rem labore totam, eaque pariatur
+                voluptatem
+                vitae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis velit id maiores tenetur
+                molestiae
+                ex repudiandae dolores ratione blanditiis quidem? Iusto officia eius esse voluptate harum, quos non amet
+                beatae.</p>
+        </div>
+        <div class="actionitems">
+            <h3>Action Items</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo vitae ducimus sint deserunt. Assumenda cum
+                distinctio quae obcaecati soluta velit aperiam laboriosam veniam rem labore totam, eaque pariatur
+                voluptatem
+                vitae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis velit id maiores tenetur
+                molestiae
+                ex repudiandae dolores ratione blanditiis quidem? Iusto officia eius esse voluptate harum, quos non amet
+                beatae.</p>
+        </div>
     </div>
-    <div class="Agenda" id="mainmarigin">
-        <h3>Agenda</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo vitae ducimus sint deserunt. Assumenda cum
-            distinctio quae obcaecati soluta velit aperiam laboriosam veniam rem labore totam, eaque pariatur voluptatem
-            vitae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis velit id maiores tenetur molestiae
-            ex repudiandae dolores ratione blanditiis quidem? Iusto officia eius esse voluptate harum, quos non amet
-            beatae.</p>
+    <div style="display: flex;">
+        <div class="fb">
+            <h3>FaceBook</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo vitae ducimus sint deserunt. Assumenda cum
+                distinctio quae obcaecati soluta velit aperiam laboriosam veniam rem labore totam, eaque pariatur
+                voluptatem
+                vitae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis velit id maiores tenetur
+                molestiae
+                ex repudiandae dolores ratione blanditiis quidem? Iusto officia eius esse voluptate harum, quos non amet
+                beatae.</p>
+        </div>
+        <div class="tweet">
+            <h3>Tweet</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo vitae ducimus sint deserunt. Assumenda cum
+                distinctio quae obcaecati soluta velit aperiam laboriosam veniam rem labore totam, eaque pariatur
+                voluptatem
+                vitae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis velit id maiores tenetur
+                molestiae
+                ex repudiandae dolores ratione blanditiis quidem? Iusto officia eius esse voluptate harum, quos non amet
+                beatae.</p>
+        </div>
     </div>
+    <footer>
+        <div>
+            <a href="" class="up">
+                <img src="/assets/Up-Arrow-0s8m3s.png" alt="uparrow" width="60px">
+            </a>
+        </div>
+    </footer>
+
 </body>
 
 </html>
